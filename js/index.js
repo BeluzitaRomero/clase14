@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //------------------------------------//
   //👉Pedir productos al json con fetch//
   //-----------------------------------//
-  fetch("/data/productos.json")
+  fetch("./data/productos.json")
     .then((res) => res.json())
     .then((data) =>
       data.forEach((producto) => {
